@@ -3,7 +3,7 @@
 module Offer
   attr_reader :code
 
-  def apply
-    raise NotImplementedError, "#{self.class} has not implemented method apply method"
+  def calculate_discount
+    raise NotImplementedError, "#{self.class} has not implemented method calculate_discount method"
   end
 end
