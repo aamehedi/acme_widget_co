@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative '../lib/basket'
-require 'pry'
 
 RSpec.describe Basket do
   let(:products) {
